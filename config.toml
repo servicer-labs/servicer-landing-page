@@ -1,4 +1,15 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'servicer'
+theme = 'hugo-xmin'
+googleAnalytics = ''
+
+[params]
+description = 'Simplify Service Management on systemd'
+keywords = 'systemd,service,process'
+
+[markup.highlight]
+  codeFences = false
+
+[markup.goldmark.renderer]
+  unsafe = true
