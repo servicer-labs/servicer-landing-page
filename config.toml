@@ -2,7 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'servicer'
 theme = 'hugo-xmin'
-googleAnalytics = ''
+googleAnalytics = 'G-2SVCPD0DT1'
 
 [params]
 description = 'Simplify Service Management on systemd'
