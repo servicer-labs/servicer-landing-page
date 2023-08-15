@@ -18,8 +18,19 @@ title: Home
 
 ###  Install
 
+Download the binary from the [release page](https://github.com/servicer-labs/servicer/releases/download/v0.1.2/servicer) or setup as-
+
 ```
-sudo snap install ser
+wget https://github.com/servicer-labs/servicer/releases/download/v0.1.2/servicer
+
+# grant permissions
+chmod +rwx ./servicer
+
+# Rename to ser and make it accessable from path
+sudo mv ./servicer /usr/bin/ser
+
+# This should work now
+ser --help
 ```
 
 Or build from source
