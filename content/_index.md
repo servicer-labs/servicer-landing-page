@@ -44,6 +44,9 @@ sudo ln -s ~/.cargo/bin/servicer /usr/bin/ser
 
 ```
 sudo ser create index.js --start --enable
+
+# Custom interpreter
+sudo ser create index.js --start --enable --interpreter deno
 ```
 
 Or write your own custom `.service` file. `servicer` provides a starter template to get you started quickly.
